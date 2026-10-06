@@ -1,0 +1,27 @@
+{
+  "name": "shivanya-admin",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3005",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1 --port 3005",
+    "test": "vitest run",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "16.2.9",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "shivanya-auth": "^1.0.0",
+    "shivanya-shell": "^1.0.5",
+    "shivanya-ui": "^1.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "26.1.0",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.4",
+    "typescript": "^7.0.2",
+    "vitest": "^4.0.0"
+  }
+}
