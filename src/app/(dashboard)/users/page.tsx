@@ -1,0 +1,2 @@
+import { ResourcePage } from "@/components/ResourcePage";
+export default function Page() { return <ResourcePage entity="users" title="Users" description="Manage users and their application activity." />; }
