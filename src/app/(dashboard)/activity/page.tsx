@@ -1,0 +1,1 @@
+import { ResourcePage } from "@/components/ResourcePage"; export default function Page(){return <ResourcePage entity="activity" title="Activity" description="Review activity across applications."/>;}
