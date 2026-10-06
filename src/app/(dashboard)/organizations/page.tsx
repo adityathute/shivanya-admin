@@ -1,0 +1,2 @@
+import { ResourcePage } from "@/components/ResourcePage";
+export default function Page() { return <ResourcePage entity="organizations" title="Organizations" description="Manage organizations and view their activity." />; }
