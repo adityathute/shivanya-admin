@@ -1,0 +1,1 @@
+import { ResourcePage } from "@/components/ResourcePage"; export default function Page(){return <ResourcePage entity="applications" title="Applications" description="Manage registered Shivanya applications."/>;}
