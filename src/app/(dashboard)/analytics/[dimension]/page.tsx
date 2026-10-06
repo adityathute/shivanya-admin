@@ -1,0 +1,1 @@
+import { AnalyticsPage } from "@/components/AnalyticsPage"; export default async function Page({params}:{params:Promise<{dimension:string}>}){const {dimension}=await params;return <AnalyticsPage dimension={dimension}/>;}
