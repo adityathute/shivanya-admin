@@ -1,0 +1,1 @@
+import { ResourcePage } from "@/components/ResourcePage"; export default function Page(){return <ResourcePage entity="events" title="Events" description="Review analytics events across applications."/>;}
